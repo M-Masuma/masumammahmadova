@@ -72,3 +72,37 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+/* Suchcontainer im Header */
+.search-container {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.search-container form {
+  display: inline-block;
+}
+
+.search-container input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  width: 200px;
+}
+
+.search-container button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #3a7bd5;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-container button:hover {
+  background-color: #4177b5;
+}
